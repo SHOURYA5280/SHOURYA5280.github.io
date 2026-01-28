@@ -1,0 +1,132 @@
+body{
+    font-family: sans-serif, Arial, Helvetica;
+    margin:auto;
+    background-color: #f0f8ff;
+    width:100%;
+    overflow-x: hidden;
+}
+
+hr{
+    border: 1px solid black;
+    margin: 2vw;
+}
+
+header{
+    width: 100%;
+    height: 40vh;
+    background-color: #010526;    
+    color: #e3e3e4;
+    text-align: center;
+    padding:20vh 1.8%;
+}
+
+h1 {
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.8vw;
+  margin-top: 5vh;
+}
+
+header>p{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 1em;
+}
+
+#start{
+    background-color: #131952;
+    border: none;
+    padding: 1vw 2vw;
+    width: 90vw;
+    font-size: 1em;
+    border-radius: 30px;
+    margin-top: 5vh;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #e3e3e4;
+}
+
+a:hover{
+    text-decoration: none;
+    color: cyan;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: #131952;
+}
+
+.card{
+    text-align: center;
+    max-width: 40vh;
+    min-height: 15vw;
+    margin: 2vw;
+    background-color: #acdbee;
+    color: black;
+    display: inline-block;
+    align-items: center;
+    border: 2px solid rgb(91, 76, 228);
+    padding: 0.8vw 1.5vw;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.mid{
+    border: 4px solid #131952;
+}
+
+button{
+    background-color: #131952;
+    border: none;
+    padding: 0.8vw 2vw;
+    font-size: 1em;
+    border-radius: 30px;
+    margin-top: 2vh;
+    cursor: pointer;
+    color: #e3e3e4;
+}
+
+#pricing{
+    text-align: center;
+}
+
+#main{
+    margin:2vh;
+}
+
+h2{
+    color: #131952;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about{
+    margin: 2vw;
+    padding: 1vw;
+    text-align: center;
+    
+}
+
+.artHead{
+    padding: 0.5vw;
+    background-color: #131952;
+    color: #e3e3e4;
+    font-family: Roboto;
+}
+
+article{
+    background-color: #6c71a3;
+    padding: 1vw;
+    margin-bottom: 2vw;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    font-size: 1em;
+    color: #0a0a0a;
+    margin-top: 2vh;
+}

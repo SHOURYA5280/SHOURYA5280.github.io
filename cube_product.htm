@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-size=1.0" />
+    <link rel="stylesheet" href="product.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img src="https://yt3.googleusercontent.com/AgV6psUSJxyhC2ozBGM5h0FFBFDnYYLnYKlxZ-GCQbs6o6DNIWiWPydIVmDVYK8O_7--B_072uw=s160-c-k-c0x00ffffff-no-rj" id="header-img" />
+      <h1>Cubix</h1>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#about" class="nav-link">About us</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#buy" class="nav-link">Buy</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About us</h2>
+        <p>Hello, this is Shourya. If you are visiting this page then you might love to play with cube. We provide cubes of different types worldwide.
+        </p>
+      </section>
+      <section id="features">
+        <h2>Features</h2>
+        <p>Our cubes give you vareity of features.
+          <ul>
+            <li>Smooth movement with magnets</li>
+            <li>Bright colours. <b>You can alter colours also!!!</b></li>
+            <li>Best quality with long time durability</li>
+          </ul>
+          For cube quality you can watch this video:-
+        </p>
+        <video id="video" width="150" height="280" poster="cube.png" controls><source src="https://youtube.com/embed/trf7Z9oVyRY?si=xO1Tl7kxGZxb3irt" />
+        </video>
+      </section>
+      <section id="buy">
+        <h2>Buy</h2>
+        <h3>Products</h3>
+        <table>
+          <thead>
+            <tr>
+              <td id="td">S.no.</td>
+              <th>Item Type</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="td">1.</td>
+              <th>2*2*2</th>
+              <th>$1.17</th>
+            </tr>
+            <tr>
+              <td id="td">2.</td>
+              <th>3*3*3</th>
+              <th>$1.75</th>
+            </tr>
+            <tr>
+              <td id="td">3.</td>
+              <th>4*4*4</th>
+              <th>$2.33</th>
+            </tr>
+            <tr>
+              <td id="td">4.</td>
+              <th>5*5*5</th>
+              <th>$2.92</th>
+            </tr>
+          </tbody>
+        </table>
+        <p><b id="b">To buy our cubes, fill this form.</b>
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+          <label for="email">E-mail: <input id="email" name="email" type="email" placeholder="E-mail" required /></label><br>
+          <label for="add">Address: <input id="add" name="add" type="text" placeholder="Address" required /></label><br>
+          <label for="item">Item: 
+            <select id="item" name="item">
+              <option value="">(Select one)</option>
+              <option value="1">2*2*2</option>
+              <option value="2">3*3*3</option>
+              <option value="3">4*4*4</option>
+              <option value="4">5*5*5</option>
+            </select>
+          </label><br>
+          <input id="submit" type="submit" value="ORDER" />
+        </form></p>
+      </section>
+    </main>
+    <footer>
+      <b>THANKS FOR VISITING THE PAGE</b>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,321 @@
+/*Fonts*/
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: rgb(39, 39, 44);
+    overflow-x: hidden;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+hr{
+    margin: 3rem;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+    background-color: rgb(1, 0, 7);
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*Header*/
+
+header{
+    background-color: rgb(6, 1, 36);
+    width:100%;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    top:0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    padding-right: 20px;
+}
+
+nav>ul>li{
+  display:block;
+}
+
+nav>ul>li>a:link, nav>ul>li>a:visited{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav>ul>li>a:hover{
+    color: cyan;
+}
+
+/*Hero Section*/
+
+#hero{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: intro linear 1s 1;
+}
+
+#herotitle{
+    font-size: 3em;
+}
+
+/*About Section*/
+
+#about{
+    padding: 1rem;
+    background-color: rgb(78, 78, 78);
+}
+
+#about p{
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/*Projects Section*/
+
+#projects{
+    padding: 1rem;
+    background-color: rgb(78, 78, 78);
+}
+
+#projects p{
+    font-size: 1.2em;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.proj a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.proj:hover{
+    border: 4px solid black;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+.proj image{
+    aspect-ratio: inherit;
+    max-width: 100%;
+    height: auto;
+}
+
+.pro{
+    max-width: 40vw;
+    aspect-ratio: inherit;
+    height: auto;
+}
+
+.proj{
+    max-width:40vw;
+    border: 4px solid white;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(39, 39, 44);
+}
+
+/*More Section*/
+
+#more{
+    padding: 1rem;
+    background-color: rgb(78, 78, 78);
+}
+
+#more p{
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+ul>li{
+    list-style-type: none;
+    margin: 0.5rem;
+}
+
+ul>li>a:link, ul>li>a:visited{
+    color: rgb(138, 15, 6);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#more>ul>li>a:hover{
+    color: rgb(201, 3, 184);
+    background-color: rgb(0, 0, 0);
+    padding: 0.2rem;
+}
+
+/*Footer*/
+
+#foot{
+    background-color: rgb(6, 1, 36);
+    color: white;
+    padding: 1rem;
+    font-size: 1.5em;
+}
+
+/*Animation*/
+
+@keyframes intro{
+  0%{
+    background-color:white;
+  }
+  5%{
+    background: linear-gradient(
+      black 5%,
+      white
+    )
+  }
+  10%{
+    background: linear-gradient(
+      black 10%,
+      white
+    )
+  }
+  15%{
+    background: linear-gradient(
+      black 15%,
+      white
+    )
+  }
+  20%{
+    background: linear-gradient(
+      black 20%,
+      white
+    )
+  }
+  25%{
+    background: linear-gradient(
+      black 25%,
+      white
+    )
+  }
+  30%{
+    background: linear-gradient(
+      black 30%,
+      white
+    )
+  }
+  35%{
+    background: linear-gradient(
+      black 35%,
+      white
+    )
+  }
+  40%{
+    background: linear-gradient(
+      black 40%,
+      white
+    )
+  }
+  45%{
+    background: linear-gradient(
+      black 45%,
+      white
+    )
+  }
+  50%{
+    background: linear-gradient(
+      black 50%,
+      white
+    )
+  }
+  55%{
+    background: linear-gradient(
+      black 55%,
+      white
+    )
+  }
+  60%{
+    background: linear-gradient(
+      black 60%,
+      white
+    )
+  }
+  65%{
+    background: linear-gradient(
+      black 65%,
+      white
+    )
+  }
+  70%{
+    background: linear-gradient(
+      black 70%,
+      white
+    )
+  }
+  75%{
+    background: linear-gradient(
+      black 75%,
+      white
+    )
+  }
+  80%{
+    background: linear-gradient(
+      black 80%,
+      white
+    )
+  }
+  85%{
+    background: linear-gradient(
+      black 85%,
+      white
+    )
+  }
+  90%{
+    background: linear-gradient(
+      black 90%,
+      white
+    )
+  }
+  95%{
+    background: linear-gradient(
+      black 95%,
+      white
+    )
+  }
+  100%{
+    background-color: black;
+  }
+}
