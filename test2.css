@@ -1,0 +1,26 @@
+body{
+background-color:#afaeb5;
+}
+
+h1{
+  text-align:center;
+  background-color:#35343b;
+  color:white;
+}
+
+#image{
+  display:block;
+  max-width:100%;
+  height:auto;
+  margin:auto;
+}
+
+#img-caption{
+  margin:auto;
+  text-align:center;
+}
+
+#footer{
+  text-align:center;
+  padding-top:20px;
+}
